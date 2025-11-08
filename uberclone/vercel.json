@@ -1,5 +1,7 @@
 {
-  "framework": "nextjs",
-  "rootDirectory": "uberclone"
+  "buildCommand": "cd uberclone && npm install && npm run build",
+  "outputDirectory": "uberclone/.next",
+  "installCommand": "cd uberclone && npm install",
+  "framework": "nextjs"
 }
 
